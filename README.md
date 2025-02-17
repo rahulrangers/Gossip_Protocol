@@ -113,8 +113,7 @@ If you prefer to start the network manually:
 
 We use Python to visualize the Power-Law distribution of peer connections. The script `plot.py` plots the degree distribution of peers:
 
-
-
+![Alt text](./img/plot.png)
 
 ```bash
 python3 plot.py
