@@ -66,11 +66,11 @@ If you prefer to start the network manually:
 
 1. **Start Seed Node(s):**  
   ```bash
-   ./seed <seedIP> <seedPort>
+   ./seed <seedPort>
    ```
    Example:
   ```bash
-   ./seed 192.168.1.100 8000
+   ./seed 5000
    ```
 
 2. **Start Peers:**  
