@@ -82,7 +82,7 @@ If you prefer to start the network manually:
    ./peer 192.168.1.101 9001 config.txt
 ```
 
-### Example \`config.txt\`
+### Example `config.txt`
 
 ```
 192.168.1.100:8000
@@ -137,16 +137,16 @@ This generates a graph of **Number of Nodes vs. Degree**, illustrating how peer 
   Cleans Output files
 
 ### Peer Class Methods:
-  - \`loadConfig()\`: Loads seed node information from a file.
-  - \`registerWithSeeds()\`: Registers the peer with seed nodes.
-  - \`SelectPeers()\` & \`PowerLaw()\`: Selects a subset of peers based on a probability distribution.
-  - \`connectToPeers()\`: Establishes TCP connections with selected peers.
-  - \`handleClient()\`: Manages incoming messages from connected peers.
-  - \`broadcastMessage()\` & \`broadcasttoSeeds()\`: Sends messages to all connected peers and seed nodes, respectively.
-  - \`startGossip()\`: Generates and broadcasts gossip messages.
-  - \`Liveliness()\`: Periodically checks the liveness of connected peers and handles node failures.
-  - \`report_liveliness()\`: Implements the ping functionality over a temporary socket.
-  - \`report_dead()\`: Notifies seed nodes and removes a dead peer from the peer list.
+  - `loadConfig()`: Loads seed node information from a file.
+  - `registerWithSeeds()`: Registers the peer with seed nodes.
+  - `SelectPeers()` & `PowerLaw()`: Selects a subset of peers based on a probability distribution.
+  - `connectToPeers()`: Establishes TCP connections with selected peers.
+  - `handleClient()`: Manages incoming messages from connected peers.
+  - `broadcastMessage()` & `broadcasttoSeeds()`: Sends messages to all connected peers and seed nodes, respectively.
+  - `startGossip()`: Generates and broadcasts gossip messages.
+  - `Liveliness()`: Periodically checks the liveness of connected peers and handles node failures.
+  - `report_liveliness()`: Implements the ping functionality over a temporary socket.
+  - `report_dead()`: Notifies seed nodes and removes a dead peer from the peer list.
 
 
 
